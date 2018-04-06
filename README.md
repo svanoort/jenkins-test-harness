@@ -4,6 +4,10 @@ See [wiki page](//wiki.jenkins-ci.org/display/JENKINS/Unit+Test)
 
 ## Changelog
 
+### 2.37 (2018 Apr 06)
+
+* A batch of small fixes to `RestartableJenkinsRule#simulateAbruptShutdown` to better handle changes while copying JENKINS_HOME
+
 ### 2.36 (2018 Apr 04)
 
 * JENKINS-50476:: offer a way to assert that Jenkins won't start
